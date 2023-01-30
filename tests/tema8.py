@@ -48,7 +48,7 @@ def test_schimba_culoarea():
     dreptunghi = Dreptunghi(5, 6, "verde")
     dreptunghi.schimba_culoarea("negru")
     actual = dreptunghi.descrie()
-    expected = f"Dreptunghiul meu are 5 cm lungime , 6 cm latime si e de culoare negru"
+    expected = "Dreptunghiul meu are 5 cm lungime , 6 cm latime si e de culoare negru"
     assert actual == expected
 
 
